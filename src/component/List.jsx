@@ -8,7 +8,7 @@ function Checked () {
         ifDoneChange(!ifDone);
         let text = e.target.parentElement.children[1]
         if(!ifDone) {
-            text.className = "line-through"
+            text.className = "line-through decoration-black decoration-4"
         }else {
             text.className = "no-underline"
         }
