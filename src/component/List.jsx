@@ -14,7 +14,7 @@ function Checked ({id, onIfDoneChange, checked}) {
             text.className = "no-underline"
         }
    }
-
+   
     return <input type="checkbox" id={id} checked={checked} onChange={handleDoneChange} className="h-5 w-6 mx-4 cursor-pointer rounded border-amber-300 text-amber-600 focus:ring-amber-600"/>
 }
 
