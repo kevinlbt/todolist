@@ -83,7 +83,7 @@ export function TodoList () {
         localStorage.setItem('items', JSON.stringify(todoListData));
     }, [todoListData]); 
 
-    return <div className="container mx-auto my-10 flex flex-col justify-center items-center border rounded-xl bg-slate-200">
+    return <div className="container mx-auto my-10 flex flex-col justify-center items-center border rounded-xl bg-slate-400">
         <Input name="Todo List" value={inputText} onChange={handleChange} />
         <ButtonAdd onClick={handleAdd} />
         <List todoVal={todoListData} onClick={handleRemove} onIfDoneChange={onIfDoneChange} /> 
